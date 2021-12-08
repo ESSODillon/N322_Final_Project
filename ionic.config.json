@@ -1,0 +1,7 @@
+{
+  "name": "IonicReact_CRUD",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
