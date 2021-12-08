@@ -1,3 +1,4 @@
+import {IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent } from '@ionic/react';
 import './ExploreContainer.css';
 
 interface ContainerProps { }
@@ -5,8 +6,17 @@ interface ContainerProps { }
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <strong>Ready to create an app?</strong>
-      <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <IonCard>
+          <IonCardHeader>
+            <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+            <IonCardTitle>Card Title</IonCardTitle>
+          </IonCardHeader>
+
+          <IonCardContent>
+            Keep close to Nature's heart... and break clear away, once in awhile, and climb a mountain or spend a week
+            in the woods. Wash your spirit clean.
+          </IonCardContent>
+        </IonCard>
     </div>
   );
 };
