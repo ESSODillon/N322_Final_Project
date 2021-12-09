@@ -1,0 +1,11 @@
+.pencil {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+.trash {
+  position: absolute;
+  right: 15%;
+  top: 25%;
+}

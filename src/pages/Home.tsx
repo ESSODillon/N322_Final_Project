@@ -1,5 +1,5 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import Card from '../components/ContactCards';
 import './Home.css';
 
 const Home: React.FC = () => {
@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <ExploreContainer />
+        <Card />
       </IonContent>
     </IonPage>
   );
